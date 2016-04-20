@@ -10,7 +10,7 @@ function getByZipAndDistance(zip, distanceInMiles, callback) {
     var con = mysql.createConnection({
         host: 'localhost', //for now, this will always be localhost
         user: 'root', // this will be whatever user you use to connect to mysql
-        password: '****', // this is the password for the 'user' above
+        password: 'stalker', // this is the password for the 'user' above
         database: 'doctors' // this is a database which you have on your install of mysql
     });
 
